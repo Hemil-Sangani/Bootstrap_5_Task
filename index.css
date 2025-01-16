@@ -1,0 +1,33 @@
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+  }
+  .text-success {
+    color: #00cc00 !important;
+  }
+  .bg-success,
+  .btn-success {
+    background-color: #00cc00 !important;
+  }
+  .btn-outline-success,
+  .border-success {
+    border-color: #00cc00 !important;
+  }
+  .btn-outline-success:hover {
+    background-color: #00cc00;
+    color: white !important;
+  }
+  button.active {
+    background-color: #00cc00 !important;
+  }
+  @media screen and (max-width: 600px) {
+    #about-image {
+      display: none;
+    }
+  }
+  .text-decoration-underline{
+    text-decoration-color: #00cc00 !important;
+    text-underline-offset: 20px !important;
+    text-decoration-thickness: 4px !important;
+  }
