@@ -1,33 +1,238 @@
 .carousel-indicators button {
-    height: 10px !important;
-    width: 10px !important;
-    border-radius: 100%;
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+}
+.text-success {
+  color: #1bbd36 !important;
+}
+.bg-success,
+.btn-success {
+  background-color: #1bbd36 !important;
+}
+.btn-outline-success,
+.border-success {
+  border-color: #1bbd36 !important;
+}
+.btn-outline-success:hover {
+  background-color: #1bbd36;
+  color: white !important;
+}
+button.active {
+  background-color: #1bbd36 !important;
+}
+@media screen and (max-width: 600px) {
+  #about-image {
+    display: none;
   }
-  .text-success {
-    color: #00cc00 !important;
+}
+.text-decoration-underline {
+  text-decoration-color: #1bbd36 !important;
+  text-underline-offset: 20px !important;
+  text-decoration-thickness: 4px !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  background-size: 50%;
+  height: 54px;
+  width: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-color: #1bbd36;
   }
-  .bg-success,
-  .btn-success {
-    background-color: #00cc00 !important;
+}
+#card-section .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  text-align: center;
+  height: auto;
+  margin-bottom: 60px;
+  min-height: 25vh;
+}
+.nav-link:hover {
+  color: #1bbd36 !important;
+}
+.dropdown-item:hover {
+  color: #1bbd36 !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#watch-video:hover {
+  .text-black-50 {
+    color: #1bbd36 !important;
   }
-  .btn-outline-success,
-  .border-success {
-    border-color: #00cc00 !important;
-  }
-  .btn-outline-success:hover {
-    background-color: #00cc00;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.icon svg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+.icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 5;
+}
+#product-section .portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+#product-section .portfolio-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -11px;
+  opacity: 0;
+  background-color: rgba(245, 245, 245, 0.9);
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+}
+
+#product-section .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+  bottom: 0;
+  transition-timing-function: step-end;
+  transition: 0.8s;
+  transition-delay: 0.2s;
+}
+#client img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+#footer .btn {
+  position: fixed;
+  bottom: 20px;
+  right: 5vw;
+}
+#footer a:hover {
+  color: #1bbd36 !important;
+}
+#footer .bi:hover {
+  color: #1bbd36 !important;
+  border-color: #1bbd36 !important;
+}
+#footer .btn:hover {
+  background-color: color-mix(in srgb, #1bbd36, transparent 20%) !important;
+  color: white !important;
+}
+#footer input[type="email"] {
+  background-color: #444444 !important;
+  border: 0;
+  padding: 4px;
+  width: 100%;
+}
+#footer input[type="email"]:focus {
+  outline: none;
+  border: 1px solid;
+  border-color: #1bbd36 !important;
+}
+#footer input[type="submit"] {
+  border: 0;
+  font-size: 16px;
+  padding: 0 20px;
+  margin: -7px -8px -7px 0;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+#footer input[type="submit"]:hover {
+  background-color: color-mix(in srgb, #1bbd36, transparent 20%) !important;
+}
+#footer .text-success:hover {
+  color: color-mix(in srgb, #1bbd36, transparent 20%) !important;
+}
+.icon:hover {
+  i {
     color: white !important;
   }
-  button.active {
-    background-color: #00cc00 !important;
+}
+#card-section div:nth-child(1) .icon:hover {
+  svg path {
+    fill: cyan !important;
+    transition: 0.5s;
   }
-  @media screen and (max-width: 600px) {
-    #about-image {
-      display: none;
-    }
+}
+
+#card-section div:nth-child(2) .icon:hover {
+  svg path {
+    fill: orange !important;
+    transition: 0.5s;
   }
-  .text-decoration-underline{
-    text-decoration-color: #00cc00 !important;
-    text-underline-offset: 20px !important;
-    text-decoration-thickness: 4px !important;
+}
+#card-section div:nth-child(3) .icon:hover {
+  svg path {
+    fill: green !important;
+    transition: 0.5s;
   }
+}
+#card-section div:nth-child(4) .icon:hover {
+  svg path {
+    fill: red !important;
+    transition: 0.5s;
+  }
+}
+#card-section div:nth-child(5) .icon:hover {
+  svg path {
+    fill: #5d3fd3 !important;
+    transition: 0.5s;
+  }
+}
+#card-section div:nth-child(6) .icon:hover {
+  svg path {
+    fill: magenta !important;
+    transition: 0.5s;
+  }
+}
+#card-section {
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+}
