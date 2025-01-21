@@ -239,3 +239,13 @@ button.active {
   transition: 0.3s;
   border-radius: 5px;
 }
+@media screen and (max-width:576px){
+  .newsletter-form input[type="email"]{
+    width:50% !important;
+  }
+}
+@media screen and (max-width:1645px) and (min-width:992px){
+  .newsletter-form input[type="email"]{
+    width:50% !important;
+  }
+}
