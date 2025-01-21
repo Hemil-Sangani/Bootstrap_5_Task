@@ -160,6 +160,9 @@ button.active {
   background-color: color-mix(in srgb, #1bbd36, transparent 20%) !important;
   color: white !important;
 }
+#footer .btn svg:hover {
+  color:white !important;
+}
 #footer input[type="email"] {
   background-color: #444444 !important;
   border: 0;
